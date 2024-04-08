@@ -12,7 +12,6 @@ public:
     void withdraw(int date, double amount); // 取出现金
     void settle(int date);                  // 结算利息，每年1月1日调用一次
     void show();
-
 private:
     int id;
     int lastDate;
@@ -20,11 +19,10 @@ private:
     double rate;
     double accumulation; // 余额按日累加之和
     void record(int date, double amount);
-    double accumulate(int date) const { // 获得指定日期为止的存款按日累计值
+    double accumulate(int date) { // 获得指定日期为止的存款按日累计值
         return accumulation + balance * (date - lastDate);
     }
 };
-
 SavingsAccount::SavingsAccount(int date, int id, double rate)
     : id(id), balance(0), rate(rate), lastDate(date), accumulation(0) {
     cout << date << "\t#" << id << " is created" << endl;
@@ -40,17 +38,15 @@ void SavingsAccount::deposit(int date, double amount) {
     record(date, amount);
 }
 void SavingsAccount::withdraw(int date, double amount) {
-    if (amount > getBalance()) {
+    if (amount > getBalance())
         cout << "Error: not enough money!" << endl;
-    } else {
+    else
         record(date, -amount);
-    }
 }
 void SavingsAccount::settle(int date) {
     double interest = accumulate(date) * rate / 365; // 年息
-    if (interest != 0) {
+    if (interest != 0)
         record(date, interest);
-    }
     accumulation = 0;
 }
 void SavingsAccount::show() {
