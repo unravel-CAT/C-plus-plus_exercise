@@ -61,7 +61,7 @@ bool Controller::runCommand(const string& cmdLine) {
     case 's': // 查询账户信息
         for (int i = 0; i < accounts.size(); i++) {
             cout << "[" << i << "]";
-            cout << accounts[i] << endl;
+            accounts[i]->show(cout);
         }
         return false;
     case 'c': // 改变日期

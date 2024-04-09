@@ -16,6 +16,7 @@ void AccountRecord::show() const {
 
 // Account类实现
 double Account::total = 0;
+RecordMap Account::recordMap;
 Account::Account(const Date& date, const string& id) : id(id), balance(0) {
     cout << date << "\t#" << id << " created" << endl;
 }
@@ -32,6 +33,14 @@ void Account::error(const string& msg) const {
 }
 void Account::show(ostream& out) const {
     cout << "# " << id << "\tBalance: " << balance << endl;
+}
+void Account::query(const Date& begin, const Date& end) {
+    if (begin <= end) {
+        RecordMap::iterator iter1 = recordMap.lower_bound(begin);
+        RecordMap::iterator iter2 = recordMap.upper_bound(end);
+        for (RecordMap::iterator iter = iter1; iter != iter2; ++iter)
+            iter->second.show();
+    }
 }
 
 // SavingsAccount类实现
@@ -84,5 +93,5 @@ void CreditAccount::settle(const Date& date) {
 }
 void CreditAccount::show(ostream& out) const {
     Account::show(out);
-    cout << "\tAvailable credit: " << getAvailableCredit() << endl;
+    out << "\tAvailable credit: " << getAvailableCredit() << endl;
 }

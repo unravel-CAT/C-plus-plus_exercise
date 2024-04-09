@@ -85,7 +85,7 @@ public:
     void withdraw(const Date& date, double amount, const std::string& desc);
     // 结算利息，每个月结算一次
     void settle(const Date& date);
-    void show(std::ostream& out) const;
+    virtual void show(std::ostream& out) const;
 private:
     Accumulator acc;
     double credit;
