@@ -2,7 +2,6 @@
 #define __ACCOUNT_H__
 #include "date.h"
 #include <string>
-
 class SavingsAccount {
 public:
     SavingsAccount(const Date& date, const std::string& id, double rate);

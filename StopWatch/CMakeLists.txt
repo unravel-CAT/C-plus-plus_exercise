@@ -1,0 +1,1 @@
+add_executable(StopWatch main.cpp StopWatch.cpp)

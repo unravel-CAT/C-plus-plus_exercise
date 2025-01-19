@@ -1,7 +1,6 @@
 #ifndef __ACCUMULATOR_H__
 #define __ACCUMULATOR_H__
 #include "date.h"
-
 class Accumulator {
 public:
     Accumulator(const Date& date, double value)

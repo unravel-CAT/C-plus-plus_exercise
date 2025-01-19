@@ -1,0 +1,3 @@
+D:\Development\Tool\CMake\bin\cmake.exe -E rm -f CMakeFiles\StopWatch.dir/objects.a
+D:\Development\Environment\mingw64\bin\ar.exe qc CMakeFiles\StopWatch.dir/objects.a @CMakeFiles\StopWatch.dir\objects1.rsp
+D:\Development\Environment\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\StopWatch.dir/objects.a -Wl,--no-whole-archive -o D:\Data\Program\Cpp\C-plus-plus_exercise\bin\StopWatch.exe -Wl,--out-implib,D:\Data\Program\Cpp\C-plus-plus_exercise\bin\libStopWatch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StopWatch.dir\linkLibs.rsp
