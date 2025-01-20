@@ -128,6 +128,123 @@ StopWatch/fast:
 	$(MAKE) $(MAKESILENT) -f StopWatch\CMakeFiles\StopWatch.dir\build.make StopWatch/CMakeFiles/StopWatch.dir/build
 .PHONY : StopWatch/fast
 
+#=============================================================================
+# Target rules for targets named BankAccount_1
+
+# Build rule for target.
+BankAccount_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_1
+.PHONY : BankAccount_1
+
+# fast build rule for target.
+BankAccount_1/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_1.dir\build.make BankAccount/CMakeFiles/BankAccount_1.dir/build
+.PHONY : BankAccount_1/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_2
+
+# Build rule for target.
+BankAccount_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_2
+.PHONY : BankAccount_2
+
+# fast build rule for target.
+BankAccount_2/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_2.dir\build.make BankAccount/CMakeFiles/BankAccount_2.dir/build
+.PHONY : BankAccount_2/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_3
+
+# Build rule for target.
+BankAccount_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_3
+.PHONY : BankAccount_3
+
+# fast build rule for target.
+BankAccount_3/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_3.dir\build.make BankAccount/CMakeFiles/BankAccount_3.dir/build
+.PHONY : BankAccount_3/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_4
+
+# Build rule for target.
+BankAccount_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_4
+.PHONY : BankAccount_4
+
+# fast build rule for target.
+BankAccount_4/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_4.dir\build.make BankAccount/CMakeFiles/BankAccount_4.dir/build
+.PHONY : BankAccount_4/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_5
+
+# Build rule for target.
+BankAccount_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_5
+.PHONY : BankAccount_5
+
+# fast build rule for target.
+BankAccount_5/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_5.dir\build.make BankAccount/CMakeFiles/BankAccount_5.dir/build
+.PHONY : BankAccount_5/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_6
+
+# Build rule for target.
+BankAccount_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_6
+.PHONY : BankAccount_6
+
+# fast build rule for target.
+BankAccount_6/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_6.dir\build.make BankAccount/CMakeFiles/BankAccount_6.dir/build
+.PHONY : BankAccount_6/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_7
+
+# Build rule for target.
+BankAccount_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_7
+.PHONY : BankAccount_7
+
+# fast build rule for target.
+BankAccount_7/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_7.dir\build.make BankAccount/CMakeFiles/BankAccount_7.dir/build
+.PHONY : BankAccount_7/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_8
+
+# Build rule for target.
+BankAccount_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_8
+.PHONY : BankAccount_8
+
+# fast build rule for target.
+BankAccount_8/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_8.dir\build.make BankAccount/CMakeFiles/BankAccount_8.dir/build
+.PHONY : BankAccount_8/fast
+
+#=============================================================================
+# Target rules for targets named BankAccount_9
+
+# Build rule for target.
+BankAccount_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BankAccount_9
+.PHONY : BankAccount_9
+
+# fast build rule for target.
+BankAccount_9/fast:
+	$(MAKE) $(MAKESILENT) -f BankAccount\CMakeFiles\BankAccount_9.dir\build.make BankAccount/CMakeFiles/BankAccount_9.dir/build
+.PHONY : BankAccount_9/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -136,6 +253,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BankAccount_1
+	@echo ... BankAccount_2
+	@echo ... BankAccount_3
+	@echo ... BankAccount_4
+	@echo ... BankAccount_5
+	@echo ... BankAccount_6
+	@echo ... BankAccount_7
+	@echo ... BankAccount_8
+	@echo ... BankAccount_9
 	@echo ... StopWatch
 .PHONY : help
 

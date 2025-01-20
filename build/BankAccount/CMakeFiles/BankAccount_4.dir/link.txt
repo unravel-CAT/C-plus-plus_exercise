@@ -1,0 +1,3 @@
+D:\Development\Tool\CMake\bin\cmake.exe -E rm -f CMakeFiles\BankAccount_4.dir/objects.a
+D:\Development\Environment\mingw64\bin\ar.exe qc CMakeFiles\BankAccount_4.dir/objects.a @CMakeFiles\BankAccount_4.dir\objects1.rsp
+D:\Development\Environment\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BankAccount_4.dir/objects.a -Wl,--no-whole-archive -o D:\Data\Program\Cpp\C-plus-plus_exercise\bin\BankAccount_4.exe -Wl,--out-implib,D:\Data\Program\Cpp\C-plus-plus_exercise\bin\libBankAccount_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BankAccount_4.dir\linkLibs.rsp

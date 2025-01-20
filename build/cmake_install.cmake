@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Data/Program/Cpp/C-plus-plus_exercise/build/StopWatch/cmake_install.cmake")
+  include("D:/Data/Program/Cpp/C-plus-plus_exercise/build/BankAccount/cmake_install.cmake")
 
 endif()
 

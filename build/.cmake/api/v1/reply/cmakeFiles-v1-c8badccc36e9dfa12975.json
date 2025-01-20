@@ -207,6 +207,9 @@
 		},
 		{
 			"path" : "StopWatch/CMakeLists.txt"
+		},
+		{
+			"path" : "BankAccount/CMakeLIsts.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
