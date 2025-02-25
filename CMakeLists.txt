@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # 项目名
-project(C-Plus-Plus_Exercise)
+project(C-plus-plus_exercise)
 
 # 输出路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

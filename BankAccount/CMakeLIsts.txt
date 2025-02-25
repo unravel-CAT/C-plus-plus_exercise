@@ -1,3 +1,4 @@
+project(BankAccount)
 # 添加源文件目录
 aux_source_directory(BankAccount_1 SRC_B1)
 aux_source_directory(BankAccount_2 SRC_B2)

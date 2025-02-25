@@ -1,11 +1,17 @@
 #ifndef STYLE_H
 #define STYLE_H
 
-class CPPStyle {
+class BaseStyle {
+    
+};
+
+class CPPStyle : public BaseStyle{
 public:
+    // 构造、析构、拷贝、移动函数
     CPPStyle();
     CPPStyle(int a);
     ~CPPStyle();
+
     void setMember();
     int member();
 private:
